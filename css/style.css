@@ -1,0 +1,300 @@
+/* =============================== */
+/* Global Settings */
+/* =============================== */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    color:#222;
+
+    background:white;
+
+    padding-top:70px;
+
+    line-height:1.6;
+
+}
+
+
+/* =============================== */
+/* Navigation */
+/* =============================== */
+
+.navbar{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:50px;
+
+    background:#181818;
+
+    border-bottom:2px solid #333;
+
+    z-index:1000;
+
+}
+
+/* Logo */
+
+.logo{
+
+    position:absolute;
+
+    left:20px;
+
+    top:50%;
+
+    transform:translateY(-40%);
+
+}
+
+.logo img{
+
+    height:45px;
+
+}
+
+/* Center Buttons */
+
+.nav-links{
+
+    position:absolute;
+
+    left:50%;
+
+    top:50%;
+
+    transform:translate(-50%, -50%);
+
+    display:flex;
+
+    gap:5px;
+
+}
+
+/* Buttons */
+
+.nav-links a{
+
+    text-decoration:none;
+
+    color:white;
+
+    background:#000000;
+
+    border:1px solid #555;
+    /* border:1px solid white; */
+
+    padding:12px 28px; 
+
+    transition:.25s;
+
+    font-weight:bold;
+
+    min-width:130px;
+
+    text-align:center;
+
+}
+
+/* Hover */
+
+.nav-links a:hover{
+
+    background:#444444;
+
+}
+
+/* Current Page */
+
+.nav-links a.active{
+
+    background:#444444;
+
+    /* border:1px solid white; */
+     border:1px solid #555;
+
+}
+
+
+/* =============================== */
+/* Hero */
+/* =============================== */
+
+.hero{
+
+    background:#f2f2f2;
+
+    padding:10px 10%;
+
+    text-align:center;
+
+}
+
+.hero h1{
+
+    font-size:36px;
+
+    margin-bottom:20px;
+
+}
+
+.hero p{
+
+    max-width:800px;
+
+    margin:auto;
+
+    margin-bottom:35px;
+
+    font-size:20px;
+
+}
+
+.button{
+
+    display:inline-block;
+
+    padding:10px 35px;
+
+    background:#000000;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:5px;
+
+    transition:.25s;
+
+}
+
+.button:hover{
+
+    background:#444444;
+
+}
+
+
+/* =============================== */
+/* Mission */
+/* =============================== */
+
+.mission{
+
+    /* from 80 */
+    width:40%;
+
+    /* space between this and button above */
+    margin:40px auto;
+
+}
+
+.mission h2{
+
+    margin-bottom:20px;
+
+    font-size:36px;
+
+}
+
+.mission p{
+
+    margin-bottom:20px;
+
+    font-size:18px;
+
+}
+
+
+/* =============================== */
+/* Featured Project */
+/* =============================== */
+
+.featured{
+
+    background:#fafafa;
+
+    padding:40px 10%;
+
+}
+
+.featured h2{
+
+    text-align:center;
+
+    margin-bottom:50px;
+
+    font-size:36px;
+
+}
+
+.project-card{
+
+    display:flex;
+
+    gap:50px;
+
+    align-items:center;
+
+}
+
+.project-card img{
+
+    width:500px;
+
+    border-radius:8px;
+
+}
+
+.project-info h3{
+
+    font-size:30px;
+
+    margin-bottom:20px;
+
+}
+
+.project-info p{
+
+    margin-bottom:30px;
+
+    font-size:18px;
+
+}
+
+
+/* =============================== */
+/* Footer */
+/* =============================== */
+
+footer{
+
+    margin-top:80px;
+
+    background:#181818;
+
+    color:white;
+
+    text-align:center;
+
+    padding:15px;
+
+}
