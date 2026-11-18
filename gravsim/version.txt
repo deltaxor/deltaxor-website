@@ -1,2 +1,2 @@
-0.2|2027-04-01|Thank you for participating in the beta!
+0.2|2026-04-01|Thank you for participating in the beta!
 Please send your feedback to: xyz@test.com
