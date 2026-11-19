@@ -1,2 +1,2 @@
-0.2|2027-04-01|Thank you for participating in the beta!
-Please send your feedback to: xyz@test.com
+0.1|2027-04-01|Thank you for participating in the beta!
+Please send your feedback to: dan@deltaxor.com
